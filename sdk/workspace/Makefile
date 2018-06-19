@@ -70,7 +70,7 @@ endif
 	@cd $(OBJDIR) && \
 	make offset.h kernel_cfg.h && \
 	make -j8 > /dev/null && \
-	arm-none-eabi-objcopy -O binary \
+	arm-linux-gnueabi-objcopy -O binary \
 	    $(OBJFILENAME) $(call get_relpath,$(OBJBINARY),$(OBJDIR))
 	@mkimage -A arm -O linux -T kernel -C none -a 0xc0008000 -e 0xc0008000 \
         -n "TOPPERS/$(KERNEL) Kernel (EV3)" \
@@ -166,4 +166,3 @@ prepare-obj-folder: clean
 
 
 .PHONY: clean realclean prepare-obj-folder img app
-

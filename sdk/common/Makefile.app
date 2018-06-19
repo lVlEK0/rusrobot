@@ -17,7 +17,7 @@ include ../common/Makefile.prj.common
 
 # Compiler options
 COPTS += @(COPTS)
-GCC_TARGET = arm-none-eabi
+GCC_TARGET = arm-linux-gnueabi
 INCLUDES += -I@(APPLDIR) \
 			-I@(APPLDIR)/../common \
 			-I$(LOADERDIR)/app \
