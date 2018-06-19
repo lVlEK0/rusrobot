@@ -15,6 +15,6 @@
 /*
  *  ARMで共通な定義
  */
-#include "arm_gcc/common/core_kernel.h"
+#include "../common/core_kernel.h"
 
 #endif /* TOPPERS_CHIP_KERNEL_H */

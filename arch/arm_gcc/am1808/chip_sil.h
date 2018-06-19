@@ -18,6 +18,6 @@
 /*
  *  ARMで共通な定義
  */
-#include "arm_gcc/common/core_sil.h"
+#include "../common/core_sil.h"
 
 #endif /* TOPPERS_CHIP_SIL_H */

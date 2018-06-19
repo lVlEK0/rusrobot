@@ -1,0 +1,8 @@
+[package]
+name = "header"
+version = "0.1.0"
+authors = ["KASE <kaseyutaka.suffix@gmail.com>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.26.3"

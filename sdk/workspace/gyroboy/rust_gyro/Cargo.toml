@@ -1,0 +1,15 @@
+[package]
+name = "rust_gyro"
+version = "0.1.0"
+authors = ["KASE <kaseyutaka.suffix@gmail.com>"]
+links = "ev3api_brick, ev3api_motor, ev3api_sensor, vasyslog"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.40"
+
+[build-dependencies]
+gcc = "0.3.54"
+
+[lib]
+crate-type = ["staticlib"]

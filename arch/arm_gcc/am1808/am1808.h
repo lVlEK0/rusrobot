@@ -1,7 +1,7 @@
 #ifndef _AM1808_H
 #define _AM1808_H
 
-#include <t_stddef.h>
+#include "../../../include/t_stddef.h"
 
 /*
  *  サポートする機能の定義

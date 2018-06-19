@@ -1,0 +1,11 @@
+/home/tsunade/Downloads/ev3rt-beta7-1-release/hrp2/sdk/workspace/gyroboy/header/target/debug/deps/libucd_util-a1140ce686cc87e4.rlib: /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs
+
+/home/tsunade/Downloads/ev3rt-beta7-1-release/hrp2/sdk/workspace/gyroboy/header/target/debug/deps/ucd_util-a1140ce686cc87e4.d: /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs /home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs
+
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs:
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs:
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs:
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs:
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs:
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs:
+/home/tsunade/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs:

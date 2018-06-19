@@ -5,6 +5,6 @@
 #ifndef TOPPERS_CHIP_TEST_H
 #define TOPPERS_CHIP_TEST_H
 
-#include "target_serial.h"
+#include "../../../target/ev3_gcc/target_serial.h"
 
 #endif /* TOPPERS_CHIP_TEST_H */

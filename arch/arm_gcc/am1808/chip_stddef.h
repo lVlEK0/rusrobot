@@ -23,7 +23,7 @@
 #else
 #define TOPPERS_STDINT_TYPE1
 #endif
-#include "gcc/tool_stddef.h"
+#include "../../gcc/tool_stddef.h"
 
 #ifndef TOPPERS_MACRO_ONLY
 
@@ -33,7 +33,7 @@
 Inline void
 TOPPERS_assert_abort(void)
 {
-    
+
 }
 
 #endif /* TOPPERS_MACRO_ONLY */
@@ -41,6 +41,6 @@ TOPPERS_assert_abort(void)
 /*
  *  ARMで共通な定義
  */
-#include "arm_gcc/common/core_stddef.h"
+#include "../common/core_stddef.h"
 
 #endif /* TOPPERS_CHIP_STDDEF_H */
