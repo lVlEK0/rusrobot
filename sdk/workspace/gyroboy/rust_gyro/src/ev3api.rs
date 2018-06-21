@@ -5,10 +5,10 @@ pub struct __BindgenUnionField<T>(::std::marker::PhantomData<T>);
 impl <T> __BindgenUnionField<T> {
     #[inline]
     pub fn new() -> Self { __BindgenUnionField(::std::marker::PhantomData) }
-    #[inline]
+    /*#[inline]
     pub unsafe fn as_ref(&self) -> &T { ::std::mem::transmute(self) }
     #[inline]
-    pub unsafe fn as_mut(&mut self) -> &mut T { ::std::mem::transmute(self) }
+    pub unsafe fn as_mut(&mut self) -> &mut T { ::std::mem::transmute(self) }*/
 }
 impl <T> ::std::default::Default for __BindgenUnionField<T> {
     #[inline]
@@ -52,7 +52,7 @@ pub const __PTHREAD_COND_SIZE__: ::std::os::raw::c_uint = 40;
 pub const __PTHREAD_ONCE_SIZE__: ::std::os::raw::c_uint = 8;
 pub const __PTHREAD_RWLOCK_SIZE__: ::std::os::raw::c_uint = 192;
 pub const __PTHREAD_RWLOCKATTR_SIZE__: ::std::os::raw::c_uint = 16;
-pub const INT8_MAX: ::std::os::raw::c_uint = 127;
+/*pub const INT8_MAX: ::std::os::raw::c_uint = 127;
 pub const INT16_MAX: ::std::os::raw::c_uint = 32767;
 pub const INT32_MAX: ::std::os::raw::c_uint = 2147483647;
 pub const INT64_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
@@ -152,7 +152,7 @@ pub const EQUIV_CLASS_MAX: ::std::os::raw::c_uint = 2;
 pub const EXPR_NEST_MAX: ::std::os::raw::c_uint = 32;
 pub const LINE_MAX: ::std::os::raw::c_uint = 2048;
 pub const RE_DUP_MAX: ::std::os::raw::c_uint = 255;
-pub const NZERO: ::std::os::raw::c_uint = 20;
+pub const NZERO: ::std::os::raw::c_uint = 20;*/
 pub const _POSIX_ARG_MAX: ::std::os::raw::c_uint = 4096;
 pub const _POSIX_CHILD_MAX: ::std::os::raw::c_uint = 25;
 pub const _POSIX_LINK_MAX: ::std::os::raw::c_uint = 8;
@@ -188,9 +188,9 @@ pub const _POSIX_CLOCKRES_MIN: ::std::os::raw::c_uint = 20000000;
 pub const _POSIX_THREAD_DESTRUCTOR_ITERATIONS: ::std::os::raw::c_uint = 4;
 pub const _POSIX_THREAD_KEYS_MAX: ::std::os::raw::c_uint = 128;
 pub const _POSIX_THREAD_THREADS_MAX: ::std::os::raw::c_uint = 64;
-pub const PTHREAD_DESTRUCTOR_ITERATIONS: ::std::os::raw::c_uint = 4;
+/*pub const PTHREAD_DESTRUCTOR_ITERATIONS: ::std::os::raw::c_uint = 4;
 pub const PTHREAD_KEYS_MAX: ::std::os::raw::c_uint = 512;
-pub const PTHREAD_STACK_MIN: ::std::os::raw::c_uint = 8192;
+pub const PTHREAD_STACK_MIN: ::std::os::raw::c_uint = 8192;*/
 pub const _POSIX_HOST_NAME_MAX: ::std::os::raw::c_uint = 255;
 pub const _POSIX_LOGIN_NAME_MAX: ::std::os::raw::c_uint = 9;
 pub const _POSIX_SS_REPL_MAX: ::std::os::raw::c_uint = 4;
@@ -204,7 +204,7 @@ pub const _POSIX_TTY_NAME_MAX: ::std::os::raw::c_uint = 9;
 pub const _POSIX2_CHARCLASS_NAME_MAX: ::std::os::raw::c_uint = 14;
 pub const _POSIX2_COLL_WEIGHTS_MAX: ::std::os::raw::c_uint = 2;
 pub const _POSIX_RE_DUP_MAX: ::std::os::raw::c_uint = 255;
-pub const OFF_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+/*pub const OFF_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
 pub const OFF_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
 pub const PASS_MAX: ::std::os::raw::c_uint = 128;
 pub const NL_ARGMAX: ::std::os::raw::c_uint = 9;
@@ -212,12 +212,12 @@ pub const NL_LANGMAX: ::std::os::raw::c_uint = 14;
 pub const NL_MSGMAX: ::std::os::raw::c_uint = 32767;
 pub const NL_NMAX: ::std::os::raw::c_uint = 1;
 pub const NL_SETMAX: ::std::os::raw::c_uint = 255;
-pub const NL_TEXTMAX: ::std::os::raw::c_uint = 2048;
+pub const NL_TEXTMAX: ::std::os::raw::c_uint = 2048;*/
 pub const _XOPEN_IOV_MAX: ::std::os::raw::c_uint = 16;
-pub const IOV_MAX: ::std::os::raw::c_uint = 1024;
+//pub const IOV_MAX: ::std::os::raw::c_uint = 1024;
 pub const _XOPEN_NAME_MAX: ::std::os::raw::c_uint = 255;
 pub const _XOPEN_PATH_MAX: ::std::os::raw::c_uint = 1024;
-pub const true_: ::std::os::raw::c_uint = 1;
+/*pub const true_: ::std::os::raw::c_uint = 1;
 pub const false_: ::std::os::raw::c_uint = 0;
 pub const E_OK: ::std::os::raw::c_uint = 0;
 pub const E_SYS: ::std::os::raw::c_int = -5;
@@ -613,7 +613,7 @@ pub const TFN_TEST_CHECK_ERCD_ERROR: ::std::os::raw::c_uint = 18;
 pub const TFN_TEST_SET_BIT_FUNC: ::std::os::raw::c_uint = 19;
 pub const TFN_TEST_SYSLOG_FLUSH: ::std::os::raw::c_uint = 20;
 pub const TFN_TEST_TEST_FINISH: ::std::os::raw::c_uint = 21;
-pub const TMAX_LOGINFO: ::std::os::raw::c_uint = 6;
+pub const TMAX_LOGINFO: ::std::os::raw::c_uint = 6;*/
 pub const __MAC_10_0: ::std::os::raw::c_uint = 1000;
 pub const __MAC_10_1: ::std::os::raw::c_uint = 1010;
 pub const __MAC_10_2: ::std::os::raw::c_uint = 1020;
@@ -698,9 +698,9 @@ pub const __WATCHOS_4_3: ::std::os::raw::c_uint = 40300;
 pub const __MAC_OS_X_VERSION_MAX_ALLOWED: ::std::os::raw::c_uint = 101304;
 pub const __DARWIN_WCHAR_MIN: ::std::os::raw::c_int = -2147483648;
 pub const _FORTIFY_SOURCE: ::std::os::raw::c_uint = 2;
-pub const RENAME_SECLUDE: ::std::os::raw::c_uint = 1;
-pub const RENAME_SWAP: ::std::os::raw::c_uint = 2;
-pub const RENAME_EXCL: ::std::os::raw::c_uint = 4;
+//pub const RENAME_SECLUDE: ::std::os::raw::c_uint = 1;
+//pub const RENAME_SWAP: ::std::os::raw::c_uint = 2;
+//pub const RENAME_EXCL: ::std::os::raw::c_uint = 4;
 pub const __SLBF: ::std::os::raw::c_uint = 1;
 pub const __SNBF: ::std::os::raw::c_uint = 2;
 pub const __SRD: ::std::os::raw::c_uint = 4;
@@ -720,8 +720,7 @@ pub const __SIGN: ::std::os::raw::c_uint = 32768;
 pub const _IOFBF: ::std::os::raw::c_uint = 0;
 pub const _IOLBF: ::std::os::raw::c_uint = 1;
 pub const _IONBF: ::std::os::raw::c_uint = 2;
-pub const BUFSIZ: ::std::os::raw::c_uint = 1024;
-pub const EOF: ::std::os::raw::c_int = -1;
+/*pub const EOF: ::std::os::raw::c_int = -1;
 pub const FOPEN_MAX: ::std::os::raw::c_uint = 20;
 pub const FILENAME_MAX: ::std::os::raw::c_uint = 1024;
 pub const P_tmpdir: &'static [u8; 10usize] = b"/var/tmp/\x00";
@@ -731,9 +730,9 @@ pub const SEEK_SET: ::std::os::raw::c_uint = 0;
 pub const SEEK_CUR: ::std::os::raw::c_uint = 1;
 pub const SEEK_END: ::std::os::raw::c_uint = 2;
 pub const L_ctermid: ::std::os::raw::c_uint = 1024;
-pub const __CTERMID_DEFINED: ::std::os::raw::c_uint = 1;
+pub const __CTERMID_DEFINED: ::std::os::raw::c_uint = 1;*/
 pub const _USE_FORTIFY_LEVEL: ::std::os::raw::c_uint = 2;
-pub const TMAX_FILENAME_LEN: ::std::os::raw::c_uint = 255;
+/*pub const TMAX_FILENAME_LEN: ::std::os::raw::c_uint = 255;
 pub const EV3_LCD_WIDTH: ::std::os::raw::c_uint = 178;
 pub const EV3_LCD_HEIGHT: ::std::os::raw::c_uint = 128;
 pub const IR_RED_UP_BUTTON: ::std::os::raw::c_uint = 1;
@@ -846,7 +845,7 @@ pub type int_fast64_t = i64;
 pub type uint_fast8_t = u8;
 pub type uint_fast16_t = u16;
 pub type uint_fast32_t = u32;
-pub type uint_fast64_t = u64;
+pub type uint_fast64_t = u64;*/
 pub type __int8_t = ::std::os::raw::c_schar;
 pub type __uint8_t = ::std::os::raw::c_uchar;
 pub type __int16_t = ::std::os::raw::c_short;
@@ -1211,7 +1210,7 @@ pub type __darwin_pthread_once_t = _opaque_pthread_once_t;
 pub type __darwin_pthread_rwlock_t = _opaque_pthread_rwlock_t;
 pub type __darwin_pthread_rwlockattr_t = _opaque_pthread_rwlockattr_t;
 pub type __darwin_pthread_t = *mut _opaque_pthread_t;
-pub type u_int8_t = ::std::os::raw::c_uchar;
+/*pub type u_int8_t = ::std::os::raw::c_uchar;
 pub type u_int16_t = ::std::os::raw::c_ushort;
 pub type u_int32_t = ::std::os::raw::c_uint;
 pub type u_int64_t = ::std::os::raw::c_ulonglong;
@@ -1251,7 +1250,7 @@ impl Clone for TOPPERS_dummy_t {
     fn clone(&self) -> Self { *self }
 }
 pub type TOPPERS_fp_t =
-    ::std::option::Option<unsafe extern "C" fn(arg1: TOPPERS_dummy_t)>;
+    ::std::option::Option<unsafe extern "C" fn(arg1: TOPPERS_dummy_t)>;*/
 pub type bool_t = ::std::os::raw::c_int;
 pub type int_t = ::std::os::raw::c_int;
 pub type uint_t = ::std::os::raw::c_uint;
@@ -1269,7 +1268,7 @@ pub type TMO = int_t;
 pub type RELTIM = uint_t;
 pub type SYSTIM = ulong_t;
 pub type SYSUTM = ulong_t;
-pub type FP = TOPPERS_fp_t;
+//pub type FP = TOPPERS_fp_t;
 pub type ER_BOOL = int_t;
 pub type ER_ID = int_t;
 pub type ER_UINT = int_t;
