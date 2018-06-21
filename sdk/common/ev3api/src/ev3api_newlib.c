@@ -8,8 +8,8 @@
 #include "platform_interface_layer.h"
 #include "tlsf.h"
 
-#undef errno
-extern int errno;
+/*#undef errno
+extern int errno;*/
 
 #if 0
 int _lseek(int file, int ptr, int dir) {
@@ -145,7 +145,7 @@ void _exit(int status) {
     ext_ker();
     while(1);
 }
-
+/*
 int _open_r(struct _reent *ptr, const char *file, int flags, int mode) {
     return cal_svc(TFN_NEWLIB_OPEN_R, (intptr_t)ptr, (intptr_t)file, (intptr_t)flags, (intptr_t)mode, 0);
 }
@@ -164,7 +164,7 @@ int _close_r(struct _reent *ptr, int fd) {
 
 off_t _lseek_r(struct _reent *ptr, int fd, off_t pos, int whence) {
 	return cal_svc(TFN_NEWLIB_LSEEK_R, (intptr_t)ptr, (intptr_t)fd, (intptr_t)pos, (intptr_t)whence, 0);
-}
+}*/
 
 
 /**
